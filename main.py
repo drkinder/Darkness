@@ -63,7 +63,6 @@ class MainGame:
                 coords = (x, y)
                 if not flashlight.is_point_between_light_lines(coords):
                     self.screen.set_at(coords, (0, 0, 0))
-                    print("BLACK")
                 '''
                 coords = [x, y]
                 # flashlight.is_point_between_light_lines(coords) or
